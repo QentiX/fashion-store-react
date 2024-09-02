@@ -7,8 +7,10 @@ function Header() {
 			<div className='container'>
 				<div className='header__row'>
 					<div className='header__logo'>
-						<img src={logoImg} alt='Header logo' />
-						<span>Fashion</span>
+						<a href='#!' className='header__link'>
+							<img src={logoImg} alt='Header logo' />
+							<span>Fashion</span>
+						</a>
 					</div>
 					<nav className='header__nav navbar'>
 						<ul className='navbar__list'>
